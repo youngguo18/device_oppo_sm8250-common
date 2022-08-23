@@ -63,6 +63,9 @@ function blob_fixup() {
         odm/lib64/libgf_hal_G3.so)
             sed -i "s|ro.boot.flash.locked|vendor.flash.locked\x00|" "${2}"
             ;;
+        product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
+            sed -i "s|my_product|product|" "${2}"
+            ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "AB 0B 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
