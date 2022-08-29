@@ -36,21 +36,11 @@ void vendor_load_properties() {
     auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
 
     switch (prjname) {
-        case 19705: // bladerunner Global (Single SIM)
-            OverrideProperty("ro.product.product.device", "RMX2075L1");
-            OverrideProperty("ro.product.product.model", "RMX2075");
-            OverrideProperty("ro.product.product.name", "RMX2075");
+        case 20161: // CN
+            OverrideProperty("ro.product.product.device", "OP4EC1");
             break;
-        case 19795: // bladerunner CN
-            OverrideProperty("ro.product.product.device", "RMX2071L1");
-            OverrideProperty("ro.product.product.model", "RMX2071");
-            OverrideProperty("ro.product.product.name", "RMX2071");
-            break;
-        case 21619: // bitra CN
-            OverrideProperty("ro.product.product.device", "RE5473");
-            break;
-        case 136730: // bitra CN (Dragon Ball Edition)
-            OverrideProperty("ro.product.product.device", "RE5473");
+        case 20351: // Global
+            OverrideProperty("ro.product.product.device", "OP4F7FL1");
             break;
         default:
             LOG(ERROR) << "Unexpected project version: " << prjname;

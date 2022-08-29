@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/oppo/sm8250-common/sm8250-common-vendor.mk)
 
 # ANT
 PRODUCT_PACKAGES += \
@@ -434,7 +434,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/realme/sm8250-common \
+    device/oppo/sm8250-common \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/oplus \
