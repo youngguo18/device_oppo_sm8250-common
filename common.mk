@@ -454,6 +454,8 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwpa_client \
+    vendor.qti.hardware.wifi.hostapd@1.2.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.1.vendor \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
@@ -466,7 +468,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.aware.xml \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
     frameworks/native/data/etc/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
-    frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
+    frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
+    frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl \
+    libwfdaac_vendor
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
