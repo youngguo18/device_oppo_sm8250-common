@@ -57,6 +57,7 @@ vendor/lib/rfsa/adsp/libcamera_nn_skel.so
 vendor/lib/rfsa/adsp/libcvpdsp_skel.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
@@ -648,6 +649,7 @@ odm/lib64/libsymphony-cpu.so
 odm/lib64/libsymphonypower.so
 odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
+odm/lib64/libtriplecam_optical_zoom_vs.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
@@ -770,6 +772,7 @@ vendor/lib/libfastcrc.so
 vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib/ubwcdma_dynlib.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libcdsp_default_listener.so
