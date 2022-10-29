@@ -888,7 +888,7 @@ vendor/lib64/libsdmutils.so
 # Display (SDM)
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libgame_enhance.so
+vendor/lib64/libgame_enhance.so|a71dd40eba72f29c6d3d46e1f1801291039b34ff
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libqseed3.so
