@@ -128,9 +128,11 @@ system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 # Bluetooth (LDAC) from oneplus 8t
 system/lib/libldacBT_abr.so|0fa74e2d405b5b98034214cb12a516a9269b5522
 system/lib/libldacBT_enc.so|5f22c53411f50ff8fe75ab9010393f7d2ad68471
+system/lib/liblhdc.so|3aa0e656ba9991b392a0fd1451916799d3a48444
 system/lib/liblhdcBT_enc.so|fccbaa68fae06d3a6dda4e9a5db523d540ae248b
 system/lib64/libldacBT_abr.so|2f0607e051f8901e47e1b212390246968f9ae0cb
 system/lib64/libldacBT_enc.so|fb6f1f186d93ff5646da115c45a228d27f667156
+system/lib64/liblhdc.so|b8e88fc77386ca814dc56aea5c0ad2a0cc19119b
 system/lib64/liblhdcBT_enc.so|c211a8d0909fa4c0dbbf7ffd9b8ee0c56cd85c12
 
 # Camera
