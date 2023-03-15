@@ -93,7 +93,7 @@ vendor.qcom.bluetooth.soc=hastings
 vendor.camera.aux.packagelist=org.pixelexperience.faceunlock
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # Crypto
