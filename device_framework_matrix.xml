@@ -35,66 +35,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.binderstats</name>
-        <version>1.0</version>
-        <interface>
-            <name>IBinderStats</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.biometrics.fingerprint</name>
         <version>2.1</version>
         <interface>
             <name>IBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.cammidasservice</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMIDASService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.commondcs</name>
-        <version>1.0</version>
-        <interface>
-            <name>ICommonDcsHalService</name>
-            <instance>commondcsservice</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.charger</name>
-        <version>1.0</version>
-        <interface>
-            <name>ICharger</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.engcamera</name>
-        <version>1.0</version>
-        <interface>
-            <name>IEngCamera</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.extcamera</name>
-        <version>1.0</version>
-        <interface>
-            <name>IExtCamera</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.handlefactory</name>
-        <version>1.0</version>
-        <interface>
-            <name>IHandleFactory</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -108,34 +52,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.midasdev</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMidasDev</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.oplusSensor</name>
         <version>1.0</version>
         <interface>
             <name>ISensorFeature</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.orms</name>
-        <version>1.0</version>
-        <interface>
-            <name>IOrmsHalProxy</name>
-            <instance>ORMS_HAL_PROXY</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.performance</name>
-        <version>1.0</version>
-        <interface>
-            <name>IPerformance</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -154,22 +74,6 @@
             <name>IOplusRadio</name>
             <instance>oplus_slot1</instance>
             <instance>oplus_slot2</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.pixelworks.hardware.display</name>
-        <version>1.1</version>
-        <interface>
-            <name>IIris</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.pixelworks.hardware.feature</name>
-        <version>1.0</version>
-        <interface>
-            <name>IIrisFeature</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
