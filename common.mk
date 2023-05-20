@@ -30,6 +30,18 @@ $(call inherit-product, vendor/oppo/sm8250-common/sm8250-common-vendor.mk)
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
+# ART
+PRODUCT_VENDOR_PROPERTIES += \
+    dalvik.vm.dex2oat-filter=speed \
+    dalvik.vm.image-dex2oat-filter=speed \
+    dalvik.vm.dex2oat64.enabled=true \
+    dalvik.vm.systemuicompilerfilter=speed
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    Launcher3QuickStep
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
