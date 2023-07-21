@@ -242,7 +242,7 @@
     <integer name="config_screenBrightnessDim">12</integer>
 
     <!-- Screen brightness when dozing. -->
-    <integer name="config_screenBrightnessDoze">80</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
 
     <!-- True if the display hardware only has brightness buckets rather than a full range of
          backlight values -->
