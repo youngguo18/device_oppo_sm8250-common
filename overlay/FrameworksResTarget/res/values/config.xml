@@ -125,4 +125,16 @@
          running in WAL mode.
          Choices are: FULL, NORMAL, OFF. -->
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
+
+    <!-- Idle current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_idle_cur_ma">6</integer>
+
+      <!-- Operating volatage for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_operating_voltage_mv">3700</integer>
+
+     <!-- Rx current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_rx_cur_ma">28</integer>
+
+    <!-- Tx current for bluetooth controller. 0 by default-->
+    <integer name="config_bluetooth_tx_cur_ma">36</integer>
 </resources>
