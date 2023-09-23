@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-# All unpinned blobs below are extracted from oppo Reno6 Pro+ 5G (PENM00_11_C.12)
+## from realme GT Neo2 5G (RMX3370_13.1.0.600(EX01)).
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -1565,7 +1565,13 @@ system_ext/lib64/libpenguin.so
 
 # Radio
 odm/bin/oemnvbkdaemon
+odm/lib64/lib-virtual-modem-protos.so
+odm/lib64/libcommcenterfw.so
+odm/lib64/libcommcenterutils.so
+odm/lib64/libdmtp-protos-lite.so
+odm/lib64/libdmtpclient.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
+odm/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so
 odm/lib64/vendor.oplus.hardware.radio@1.0.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
