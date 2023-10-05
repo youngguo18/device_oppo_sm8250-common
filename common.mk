@@ -365,6 +365,7 @@ PRODUCT_PACKAGES += \
     OPlusNfcResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
+    OPlusTelephonyResCommon\
     OPlusTetheringResCommon \
     OPlusWifiResCommon
 
