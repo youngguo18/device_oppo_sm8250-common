@@ -210,6 +210,9 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">false</bool>
 
+    <!-- Screen off delay --> 
+    <integer name="config_screen_off_delay">0</integer>
+
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
@@ -565,8 +568,9 @@
 
      <!-- Set the value for screen brightness while in Doze state. -->
      <integer name="config_screenBrightnessDoze">17</integer>
-
-    <!-- Default screen brightness setting set.
+     <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.1</item>
+ 
+   <!-- Default screen brightness setting set.
          -2 is invalid so setting will resort to int value specified above.
          Must be in the range specified by minimum and maximum. -->
     <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.45882353</item>
@@ -751,10 +755,6 @@
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">0</integer>
-
-    <!-- If true, the doze component is not started until after the screen has been
-         turned off and the screen off animation has been performed. -->
-    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
